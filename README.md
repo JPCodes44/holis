@@ -59,12 +59,13 @@ Ensure that you have the following tools installed:
 
 4. **Set up your environment variables:**
 
-Create an .env file in the root directory with the following content:
+    Create an .env file in the root directory with the following content:
 
+    ```bash
     REACT_APP_SOLANA_NETWORK=devnet # or mainnet
     REACT_APP_PUBLIC_KEY=<Your Wallet Public Key>
 
-5. **Start the local development server:**
+4. **Start the local development server:**
 
    ```yarn start
    Your application will be live at http://localhost:3000.
