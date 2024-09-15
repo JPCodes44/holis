@@ -217,7 +217,7 @@ export const SwapToken: FC = () => {
                             <Box position="relative" width="40%" textAlign="right">
                                 <Input
                                     value={amount}
-                                    onChange={(e) => setAmount(parseFloat(e.target.value))}
+                                    onChange={(e) => setAmount(parseFloat(e.target.value) || 0)}
                                     placeholder="0.0"
                                     color="white"
                                     bg="transparent"

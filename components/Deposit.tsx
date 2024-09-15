@@ -227,7 +227,7 @@ export const DepositSingleTokenType: FC = (props: {
 
                 {/* Borderless Input for Amount */}
                 <NumberInput
-                    onChange={(valueString) => setAmount(parseInt(valueString))}
+                    onChange={(valueString) => setAmount(parseInt(valueString) || 0)}
                     value={poolTokenAmount}
                     focusBorderColor="transparent" // Removes the border on focus
                 >
