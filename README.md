@@ -111,6 +111,6 @@ We welcome contributions! If you'd like to help improve Holis, follow these step
 
 ### 📞 **Contact**
 
-**Maintainer:** Matthew Athanasopoulos  
+**Maintainer:** JP Mak  
 **Email:** [jp.mak44@gmail.com](mailto:jp.mak44@gmail.com)  
 **GitHub:** [@JPCodes44](https://github.com/JPCodes44)
