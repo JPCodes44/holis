@@ -53,7 +53,7 @@ Ensure that you have the following tools installed:
 3. **Install the dependencies:**
 
    ```bash
-   yarn install // npm install
+   yarn install // npm install //use --force if necessary
    
 ## 🚀 **Running Locally**
 
