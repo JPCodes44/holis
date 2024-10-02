@@ -1,4 +1,4 @@
-import { Center, Box, Heading, Flex } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import { AppBar } from "../components/AppBar";

@@ -8,12 +8,10 @@ import {
     Text,
     Flex,
     Divider,
-    Spacer,
     useToast,
     Link
 } from "@chakra-ui/react";
-import { FC, useState, useEffect } from "react";
-import { struct, u8, blob } from '@solana/buffer-layout';
+import { FC, useState, } from "react";
 import * as Web3 from "@solana/web3.js";
 import { useConnection, useWallet } from "@solana/wallet-adapter-react";
 import {

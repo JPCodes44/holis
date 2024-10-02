@@ -1,6 +1,5 @@
-import { Box, Button, Flex, Spacer, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Text } from "@chakra-ui/react";
 import { FC } from "react";
-import { NextPage } from "next";
 import Head from "next/head";
 import { AppBar } from "../components/AppBar";
 import styles from "../styles/Home.module.css";

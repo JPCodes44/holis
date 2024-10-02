@@ -104,6 +104,7 @@ export const Airdrop: FC = () => {
         transaction.feePayer = publicKey; // Fee payer is the wallet's public key
 
         try {
+            alert(userATA);
             const signature = await sendTransaction(transaction, connection);
             await connection.confirmTransaction(signature, 'confirmed');
 

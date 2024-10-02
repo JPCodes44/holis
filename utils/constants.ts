@@ -9,11 +9,11 @@ export const swapAuthority = new Web3.PublicKey(
 )
 
 export const poolKryptAccount = new Web3.PublicKey(
-    "BVPUZrv5nk3jMyTWkZdxvp2LuyPF1DmGTyR8AzKvgZgN"
+    "Hff6QrtFnRzkmxXa7HDy2v5W6EzntQ93hqhrBbhdX5LE"
 )
 
 export const poolScroogeAccount = new Web3.PublicKey(
-    "5ttkBtMndCbHdSib22K4wRUE5ifprPXkMSckzBRSQv3K"
+    "7VDQEinSFG5xk6Q613nGqtvDPA7wfc5BtPjez4qRPd4v"
 )
 
 export const poolMint = new Web3.PublicKey(
@@ -33,11 +33,11 @@ export const feeAccount = new Web3.PublicKey(
 )
 
 export const kryptMint = new Web3.PublicKey(
-    "DWiD4EVUtnsgqoGbdSK5kBjHRJ7XoGx58WPHBu7t73Dh"
+    "H4CDhbkicNBj8JHuW7kiTxR7GmuytYvbTF2HctRGXHCy"
 )
 
 export const ScroogeCoinMint = new Web3.PublicKey(
-    "4AG5yRYmMcpMxcRvvkLPHHiSdnCnRQhtncs79CoQNnRQ"
+    "7VDQEinSFG5xk6Q613nGqtvDPA7wfc5BtPjez4qRPd4v"
 )
 
 export const airdropProgramId = new Web3.PublicKey(
