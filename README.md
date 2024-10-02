@@ -52,6 +52,8 @@ Ensure that you have the following tools installed:
    
 3. **Install the dependencies:**
 
+   Use --force if necessary.
+
    ```bash
    yarn install // npm install
    

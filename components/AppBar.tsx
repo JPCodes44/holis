@@ -64,8 +64,6 @@ export const AppBar: FC = () => {
                         color="white"
                         transition="all 0.3s ease"
                         _hover={{
-                            backgroundColor: "turquoise",
-                            color: "black",
                             transform: "scale(0.9)",
                         }}
                         px={3}
@@ -80,8 +78,6 @@ export const AppBar: FC = () => {
                         color="white"
                         transition="all 0.3s ease"
                         _hover={{
-                            backgroundColor: "turquoise",
-                            color: "black",
                             transform: "scale(0.9)",
                         }}
                         px={3}
