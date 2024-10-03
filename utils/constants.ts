@@ -1,23 +1,23 @@
 import * as Web3 from "@solana/web3.js"
 
 export const tokenSwapStateAccount = new Web3.PublicKey(
-    "7hXKK1wdF89W3TD2PhSbXtSxg3HhUjAR4kv44DvpDfQg"
+    "7hXKK1wdF89W3TD2PhSbXtSxg3HhUjAR4kv44DvpDfQg"//
 )
 
 export const swapAuthority = new Web3.PublicKey(
-    "BRZMU7sP4pD9kzhe7NQqDHjuGwFb1oqrtbBLm7CJAVds"
+    "BRZMU7sP4pD9kzhe7NQqDHjuGwFb1oqrtbBLm7CJAVds"//
 )
 
 export const poolKryptAccount = new Web3.PublicKey(
-    "Hff6QrtFnRzkmxXa7HDy2v5W6EzntQ93hqhrBbhdX5LE"
+    "Hff6QrtFnRzkmxXa7HDy2v5W6EzntQ93hqhrBbhdX5LE"//
 )
 
 export const poolScroogeAccount = new Web3.PublicKey(
-    "7VDQEinSFG5xk6Q613nGqtvDPA7wfc5BtPjez4qRPd4v"
+    "7VDQEinSFG5xk6Q613nGqtvDPA7wfc5BtPjez4qRPd4v"//
 )
 
 export const poolMint = new Web3.PublicKey(
-    "LPT6pbaP7Wq9Rwwrwot9DNW9ATRjgr4DQnqdnR8oE8R"
+    "LPT6pbaP7Wq9Rwwrwot9DNW9ATRjgr4DQnqdnR8oE8R"//
 )
 
 export const poolBalance = new Web3.PublicKey(
@@ -25,19 +25,19 @@ export const poolBalance = new Web3.PublicKey(
 )
 
 export const tokenAccountPool = new Web3.PublicKey(
-    "TBjHqRNSYBkSzuCsaZUHzKzWModj6iAYTVvEXphJ3my"
+    "TBjHqRNSYBkSzuCsaZUHzKzWModj6iAYTVvEXphJ3my"//
 )
 
 export const feeAccount = new Web3.PublicKey(
-    "CCphyBx4jchJUBFZM1YYJYA2hbt3awHHGBgkrNCf9hYW"
+    "CCphyBx4jchJUBFZM1YYJYA2hbt3awHHGBgkrNCf9hYW"//
 )
 
 export const kryptMint = new Web3.PublicKey(
-    "H4CDhbkicNBj8JHuW7kiTxR7GmuytYvbTF2HctRGXHCy"
+    "H4CDhbkicNBj8JHuW7kiTxR7GmuytYvbTF2HctRGXHCy"//
 )
 
 export const ScroogeCoinMint = new Web3.PublicKey(
-    "7VDQEinSFG5xk6Q613nGqtvDPA7wfc5BtPjez4qRPd4v"
+    "7VDQEinSFG5xk6Q613nGqtvDPA7wfc5BtPjez4qRPd4v"//
 )
 
 export const airdropProgramId = new Web3.PublicKey(
