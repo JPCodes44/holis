@@ -21,14 +21,24 @@ import {
     ScroogeCoinMint,
     airdropPDA,
     airdropProgramId,
+    tokenSwapStateAccount,
 } from "../utils/constants";
 import * as token from "@solana/spl-token";
+import { TOKEN_SWAP_PROGRAM_ID } from "@solana/spl-token-swap";
 
 export const Airdrop: FC = () => {
     const [amount, setAmount] = useState(0)
 
     const { connection } = useConnection();
     const { publicKey, sendTransaction } = useWallet()
+
+    const getSwapAuthority = async () => {
+        const [swap, bump] = await Web3.PublicKey.findProgramAddress(
+            [tokenSwapStateAccount.toBuffer()],
+            TOKEN_SWAP_PROGRAM_ID,
+        );
+        alert(swap);
+    };
 
     const handleKryptSubmit = (event: any) => {
         event.preventDefault()
@@ -104,7 +114,7 @@ export const Airdrop: FC = () => {
         transaction.feePayer = publicKey; // Fee payer is the wallet's public key
 
         try {
-            alert(userATA);
+            getSwapAuthority();
             const signature = await sendTransaction(transaction, connection);
             await connection.confirmTransaction(signature, 'confirmed');
 

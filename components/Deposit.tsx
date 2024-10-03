@@ -149,7 +149,7 @@ export const DepositSingleTokenType: FC = (props: {
         try {
             const signature = await sendTransaction(transaction, connection);
             await connection.confirmTransaction(signature, 'confirmed');
-
+            
             const txLink = `https://explorer.solana.com/tx/${signature}?cluster=devnet`;
 
             // Display a toast notification with a clickable link

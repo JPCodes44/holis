@@ -1,11 +1,11 @@
 import * as Web3 from "@solana/web3.js"
 
 export const tokenSwapStateAccount = new Web3.PublicKey(
-    "EV7FEEq2EyTFtKx4ukp2QfW9mWLGcJckGGBNp5cjcHUe"
+    "7hXKK1wdF89W3TD2PhSbXtSxg3HhUjAR4kv44DvpDfQg"
 )
 
 export const swapAuthority = new Web3.PublicKey(
-    "24zqZMTYLVk4gm62seqU7KhBwvi3uBGtyDbnsC4rkbuR"
+    "BRZMU7sP4pD9kzhe7NQqDHjuGwFb1oqrtbBLm7CJAVds"
 )
 
 export const poolKryptAccount = new Web3.PublicKey(
