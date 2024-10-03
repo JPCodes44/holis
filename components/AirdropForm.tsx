@@ -22,6 +22,7 @@ import {
     airdropPDA,
     airdropProgramId,
     tokenSwapStateAccount,
+    poolMint,
 } from "../utils/constants";
 import * as token from "@solana/spl-token";
 import { TOKEN_SWAP_PROGRAM_ID } from "@solana/spl-token-swap";
@@ -38,6 +39,18 @@ export const Airdrop: FC = () => {
             TOKEN_SWAP_PROGRAM_ID,
         );
         alert(swap);
+    };
+
+    const getFeeAccount = async () => {
+        const feeOwner = new Web3.PublicKey('HfoTxFR1Tm6kGmWgYWD6J7YHVy1UwqSULUGVLXkJqaKN');
+
+        let tokenFeeAccountAddress = await token.getAssociatedTokenAddress(
+            poolMint, // mint
+            feeOwner, // owner
+            true // allow owner off curve
+        );
+
+        alert(tokenFeeAccountAddress);
     };
 
     const handleKryptSubmit = (event: any) => {
@@ -115,6 +128,7 @@ export const Airdrop: FC = () => {
 
         try {
             getSwapAuthority();
+            getFeeAccount();
             const signature = await sendTransaction(transaction, connection);
             await connection.confirmTransaction(signature, 'confirmed');
 
@@ -227,7 +241,7 @@ export const Airdrop: FC = () => {
             // Display a toast notification with a clickable link
             // Display a toast notification with a clickable link
             toast({
-                title: "Transaction complete!", 
+                title: "Transaction complete!",
                 description: (
                     <Link href={txLink} isExternal color="white">
                         View transaction on Solana Explorer.

@@ -17,7 +17,7 @@ export const poolScroogeAccount = new Web3.PublicKey(
 )
 
 export const poolMint = new Web3.PublicKey(
-    "CXQYDT9ShDYG1JMMwjNiR6TcL4u4uJNnguAbLKw6jVv4"
+    "LPT6pbaP7Wq9Rwwrwot9DNW9ATRjgr4DQnqdnR8oE8R"
 )
 
 export const poolBalance = new Web3.PublicKey(
@@ -25,11 +25,11 @@ export const poolBalance = new Web3.PublicKey(
 )
 
 export const tokenAccountPool = new Web3.PublicKey(
-    "Fp1W1KHuakombQATnToDCSpTnqLicFEfxWgtCAWbuvCM"
+    "TBjHqRNSYBkSzuCsaZUHzKzWModj6iAYTVvEXphJ3my"
 )
 
 export const feeAccount = new Web3.PublicKey(
-    "EY4hgx73saq9xuLr85HNaxGMAK6R5TkvuSDchKbpt291"
+    "CCphyBx4jchJUBFZM1YYJYA2hbt3awHHGBgkrNCf9hYW"
 )
 
 export const kryptMint = new Web3.PublicKey(
