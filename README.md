@@ -38,24 +38,22 @@ Ensure that you have the following tools installed:
 - [Solana CLI](https://docs.solana.com/cli/install-solana-cli-tools)
 - A wallet like [Phantom](https://phantom.app/) to interact with Solana
 
-### 🛠️ **Installation**
+# 🛠️ **Installation**
 
-1. **Clone the repository:**
+# 1. **You must download the source code from the releases section, prototype v1.00**:
+wget https://github.com/your-username/holis/releases/download/v1.00/holis-source-code.zip
+unzip holis-source-code.zip
 
-   ```bash
-   git clone https://github.com/your-username/holis.git
+# 2. Navigate into the project directory:
+cd holis
 
-2. **Navigate into the project directory:**
+# 3. Install the dependencies:
+# Use --force if necessary.
+yarn install
 
-   ```bash
-   cd holis
-   
-3. **Install the dependencies:**
+# Or if using npm:
+npm install --force
 
-   Use --force if necessary.
-
-   ```bash
-   yarn install // npm install
    
 ## 🚀 **Running Locally**
 
