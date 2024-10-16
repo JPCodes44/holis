@@ -40,18 +40,18 @@ Ensure that you have the following tools installed:
 
 # 🛠️ **Installation**
 
-# 1. **You must download the source code from the releases section, prototype v1.00**:
-wget https://github.com/your-username/holis/releases/download/v1.00/holis-source-code.zip
+1. **You must download the source code from the releases section, prototype v1.00**:
+https://github.com/JPCodes44/holis/archive/refs/tags/%23liquiditypool.zip
 unzip holis-source-code.zip
 
-# 2. Navigate into the project directory:
+2. **Navigate into the project directory:**
 cd holis
 
-# 3. Install the dependencies:
-# Use --force if necessary.
+3. **Install the dependencies:**
+Use --force if necessary.
 yarn install
 
-# Or if using npm:
+4. **Or if using npm:**
 npm install --force
 
    
